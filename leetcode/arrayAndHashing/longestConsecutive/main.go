@@ -44,3 +44,5 @@ func main() {
 	nums1 := []int{2, 20, 4, 10, 3, 4, 5}
 	fmt.Println("Output:", longestConsecutive(nums1))
 }
+
+
