@@ -19,7 +19,7 @@ func numIslands(grid [][]bool) int {
 
 	var dfs func(int, int)
 	dfs = func(r, c int) {
-		if r < 0 || c < 0 || r >= rows || r >= cols || visited[r][c] || !grid[r][c] {
+		if r < 0 || c < 0 || r >= rows || c >= cols || visited[r][c] || !grid[r][c] {
 			return 
 		}
 
